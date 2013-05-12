@@ -1,0 +1,80 @@
+.Banniere {
+	z-index: 1;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	height: 150px;
+	width: 1000px;
+	text-align: center;
+	background-color: rgb(62,129,184);
+}
+
+#Logo {
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+#SousTitre {
+
+	position: absolute;
+	top: 0px;
+	left: 270px;
+}
+
+#Connexion {
+	position: absolute;
+	top: 80px;
+	right: 20px
+}
+
+#Navigation {
+	position: absolute;
+	top: 85px;
+	left: 180px;
+	height: 40px;
+	width: 380px;
+}
+
+.Menu {
+	position: relative;
+	float: left;
+	width: 33%;
+	line-height: 40px;
+	background-color: rgb(68,167, 212);
+	transition-property: line-height, color, background-color;
+	transition-duration: .2s;
+}
+
+.Menu:hover {
+	line-height: 50px;
+	color: rgb(220, 220, 220);
+	background-color: rgb(58,157, 202);
+	cursor: default;
+}
+
+.Menu:hover .SousMenu {
+	visibility: visible;
+	line-height: 30px;
+}
+
+.SousMenu {
+	line-height: 0px;
+	width: 100%;
+	visibility:hidden;
+	background-color: rgb(48, 147, 192);
+	transition-property: line-height, visibility;
+	transition-duration: .1s;
+}
+
+.SousMenu > a {
+	display: block;
+	transition-property: color, background-color;
+}
+
+.SousMenu > a:hover {
+	color: rgb(220, 220, 220);
+	background-color: rgb(38, 137, 182);
+}

@@ -1,0 +1,32 @@
+body {
+	margin: 0%;
+	background-color: rgb(50, 50, 50);
+	font-family: "Verdana", Arial, Verdana, serif;
+}
+
+.Corps {
+	position: relative;
+	background-color: rgb(212, 212, 212);
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	height: 1200px;
+	width: 1000px;
+}
+
+.Bas {
+	background-color: rgb(54,58,56);
+	color: rgb(255,255,255);
+	margin-left: auto;
+	margin-right: auto;
+	height: 100px;
+	width: 1000px;
+}
+
+a {
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	transition-property: color;
+	transition-duration: .15s;
+}
+

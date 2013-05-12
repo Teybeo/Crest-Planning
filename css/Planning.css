@@ -1,0 +1,118 @@
+#Calendar {
+	margin-left: 20px;
+	margin-right: auto;
+	margin-top: 20px;
+	border: 2px solid;
+	border-collapse: collapse;
+}
+
+#Calendar th {
+	background-color: rgb(54, 58, 56);
+	color: rgb(230, 230, 230);
+	border: 2px solid black;
+	font-weight : normal;
+	padding: 5px;
+}
+
+#Calendar tr {
+	background-color: white;/*rgb(220, 220, 220);*/
+}
+
+#Calendar td  {
+	overflow: hidden;
+	border: 1px solid;
+	vertical-align: top;
+	width: 80px;
+	height: 70px;
+	width: 80px;
+	max-width: 80px;
+}
+#Calendar td > div {
+    margin-left: 4px;
+    margin-top: 4px;
+
+}
+#Event {
+	position: absolute;
+	width: 325px;
+	height: 449px;
+	left: 630px;
+	top: 113px;
+	background-color: white;
+	border: 2px solid;
+	padding: 10px;
+}
+
+#TitrePlanning {
+
+	display:block;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-weight: bold;
+
+}
+#ExportListe {
+
+	float: right;
+	top: 30px;
+	position: absolute;
+	right: 20px;
+}
+
+#ExportHTML {
+	top: 30px;
+	position: absolute;
+	right: 140px;
+}
+
+#ExportCSV {
+	top: 30px;
+	position: absolute;
+	right: 20px;
+}
+
+label {
+
+	display:block;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+#Event input[type="text"] {
+
+	display:block;
+	margin-bottom: 15px;
+	margin-right: 140px;
+
+	height: 20px;
+	width: 175px;
+
+}
+
+#ErrorFin, #ErrorDeb {
+
+	visibility: hidden;
+	display: block;
+	position: absolute;
+	right: 60px;
+	color: rgb(220, 80, 80);
+	background-color: rgb(247,247,247);
+	border: solid 1px rgb(212, 212,212);
+	width: 80px;
+}
+
+#ErrorDeb {
+	top: 104px;
+}
+
+#ErrorFin {
+	top: 170px;
+}
+
+textarea {
+
+	display:block;
+	min-width: 315px;
+	max-width: 315px;
+	min-height: 100px;
+}
